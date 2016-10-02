@@ -94,3 +94,7 @@ h3 {
 .sec3title {
     color: #26734d;
 }
+
+p {
+  padding-bottom: 1px;
+}
