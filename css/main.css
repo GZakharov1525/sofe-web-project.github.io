@@ -37,7 +37,7 @@ h3 {
 
 .btn-primary {
   color: #fff;
-  background-color: #27A967;
+  background-color: transparent;
   border-color: white;
   margin-bottom: 5px;
   -webkit-transition:0.5s ease-in-out;
@@ -60,15 +60,8 @@ h3 {
   background: #40bf80;
 }
 
-.dropdown-menu {
-  background: #2E2F31;
-  border-radius: 0;
-  border: 0;
-}
-.dropdown-menu li a {
-  padding: 10px;
-}
-.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+
+.navbar-inverse .navbar-nav li a:hover {
   background: #2C463C;
 }
 
@@ -79,6 +72,12 @@ h3 {
 
 .sec2padding {
   padding-bottom: 20px;
+}
+
+.sec1about {
+  color: #26734d;
+  padding-left: 14px;
+  padding-top: 20px;
 }
 
 .sec2compass {
