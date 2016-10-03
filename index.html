@@ -1,4 +1,3 @@
-<!--Test merge-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,12 +11,12 @@
     <link href="css/morris.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" type="image/png" href="mountains.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
 
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,13 +25,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+               <!-- <a class="navbar-brand" href="#">Vagabond.ca</a>-->
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#section1">About</a></li>
-                    <li><a href="#section2">Compass</a></li>
+                    <li class="dropdown">
+                        <a href="#section2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Compass<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#section2.1">The Americas</a></li>
+                            <li><a href="#section2.2">Europe</a></li>
+                            <li><a href="#section2.3">Asia</a></li>
+                            <li><a href="#section2.4">Africa</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#section3">Stories</a></li>
-                    <li><a href="#section4">Stats</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -40,88 +48,156 @@
 
     <div class="jumbotron">
         <div class="container">
-            <h1>The Vagabond Project</h1>
+            <h1>Vagabond Project</h1>
             <p>The world belongs to those who take it on!</p>
             <br>
-            <p><a class="btn btn-primary btn-lg" href="#section2" role="button">Your Compass »</a> <a class="btn btn-primary btn-lg" href="#section3" role="button">Stories »</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Your Compass »</a> <a class="btn btn-primary btn-lg" href="#" role="button">Stories »</a></p>
         </div>
     </div>
 
-    <div class="container" style="margin-bottom: 5%">
+    <div class="container">
         <div class="row">
-		<div class="sec1about">
-	    		<h2 id="section1">About Us</h2>
-		</div>
           <div class="col-md-6">
+            <figure>
+            </figure>
                 <img src="section1.jpg" alt="World map and a camera" width="100%" height="100%">
           </div>
           <div class="col-md-6">
+              <h2 id="section1">About Us</h2>
               <p>We believe that the world belongs to those who do not fear to discover it. Our world is vast and rich, but how little we know of it! Vagabond is an initiative project with the main aim of providing enthusiast travellers with reliable information about different conrners of our globe - the less travelled paths that speak volumes about the world. If you think you are ready to take on the challenge and become the next explorer of the 21st century, grab your compas, read about the adventures of other vagabond wanderers, see their video and photo stories, choose the destination you like, and go out there, make it happen!</p>
               <p>And when you are back on familiar ground, share your story with us as well, participate in our polls, help your fellow travellers find the best spot on this planet and leave your digital eco-footprint on our map of the world!</p>
           </div>
         </div>
     </div>
 
-    <div class="container" style="margin-bottom: 5%">
-      <div class="row sec2compass">
-        <h2 id="section2"> Compass </h2>
-      </div>
-      <div>
-        <img class="sbsImages" src="section2.1.jpg" alt="The Chichen Itza" height="150px" width="23%">
-        <img class="sbsImages" src="section2.2.jpg" alt="The Eiffel Tower" height="150px" width="23%">
-        <img class="sbsImages" src="section2.3.jpg" alt="The Great Wall of China" height="150px" width="23%">
-        <img class="sbsImages" src="section2.4.jpg" alt="The Valley of the Kings" height="150px" width="23%">
-      </div>
+    <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <div class="sec2compass">
+          <h2 id="section2"> Compass </h2>
+          <!-- <p>Some shit about the compass. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 sec2padding">
+          <img src="section2.1.jpg" alt="The Chichen Itza" height="100%" width="100%" style=padding-br>
         </div>
         <div class="col-md-6">
-          <ol>
+          <h3 id="section2.1">The Americas</h3>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <ul>
             <li> Chichen Itza, Mexico </li>
             <li> Machu Picchu, Peru </li>
-            <li> Eiffel Tower, France </li>
-            <li> The Colosseum, Italy </li>
+            <li> Las Vegas, USA </li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+            <h3 id="section2.2">Europe</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <ul>
+              <li> Eiffel Tower, France </li>
+              <li> The Colosseum, Italy </li>
+              <li> Stonehenge, England </li>
+            </ul>
+        </div>
+        <div class="col-md-6 sec2padding">
+            <img src="section2.2.jpg" alt="The Eiffel Tower" height="100%" width="100%">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 sec2padding">
+          <img src="section2.3.jpg" alt="The Great Wall of China" height="100%" width="100%">
+        </div>
+        <div class="col-md-6">
+          <h3 id="section2.3">Asia</h3>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <ul>
             <li> The Great Wall of China, China </li>
             <li> Taj Mahal, India </li>
-            <li> Valley of the Kings, Egypt </li>
-            <li> Serengeti National Park, Tanzania </li>
-          </ol>
+            <li> Angkor Wat, Cambodia </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+            <h3 id="section2.4">Africa</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <ul>
+              <li> Valley of the Kings, Egypt </li>
+              <li> Victoria Falls, Zambia/Zimbabwe </li>
+              <li> Serengeti National Park, Tanzania\ </li>
+            </ul>
+        </div>
+        <div class="col-md-6 sec2padding">
+            <img src="section2.4.jpg" alt="The Valley of the Kings" height="100%" width="100%">
+        </div>
+      </div>
+
+      <div id="section4">
+          <h4> Diamonds in the Rough </h4>
+          <table id="TravelDestinationsTips">
+            <!-- The following section contains the rows of the table with the first being the header row that describes what the others contain, each row has 2 cells which are described by the header row. -->
+            <tr>
+              <th> Destination </th>
+              <th> What You're Missing Out On </th>
+            </tr>
+            <tr>
+              <td> Oahu, Hawaii </td>
+              <td> Hike the Haiku Stairs: known as "The Stairway to Heaven" it is a steep trail with a wooden ladder spiked into the side of a cliff. </td>
+            </tr>
+            <tr>
+              <td> Island of Mindanao, Philippines </td>
+              <td> Hinatuan River: a crystal clear blue saltwater river which has been nicknamed "Enchanted River" due to the fact that it flows from seemingly nowhere. Perfect for snorkelers and divers! </td>
+            </tr>
+            <tr>
+              <td> Poland </td>
+              <td> On the west side of Poland there is the "Crooked Forest" with over 400 pine trees growing at a 90 degree bend to their roots, explore this bewildering phenomenon today! </td>
+            </tr>
+            <tr>
+              <td> Sichuan, China </td>
+              <td> In the north part of the remote region of Sichuan you will find Jiuzhaigou Valley. It stretches for over 180'000 acres and is known for its Tibetan villages, multi-level waterfalls and
+                      colourful lakes with completely clear waters.
+              </td>
+            </tr>
+            <tr>
+              <td> Rotorua, New Zealand </td>
+              <td> Known for its geysers, thermal springs, and bubbling mud pool this city was nicknamed the "Sulphur City". Visitors can soak at their leisure in the hot springs or participate in the water
+                  sports held in the region's 17 lakes!
+              </td>
+            </tr>
+            <tr>
+              <td> Lofoten Islands, Norway </td>
+              <td> Home to the world's largest deepwater coral reef this island is an archipelago off the coast of Norway. It is also home to fantastic wildlife like the otters, moose and puffins as well as
+                  many others!
+              </td>
+            </tr>
+            <!-- table data ends -->
+          </table>
+      </div> <!-- section 4 ends -->
+      
+    </div>
+
+    <div>
+      <!-- The video is embeded with bootstarp styling, content from vimeo -->
+      <div class="sec3title container">
+        <h2 id="section3"> Stories </h2>
+      </div>
+      <div class="container-margin-video">
+        <div class="container">
+          <div align="center" class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://player.vimeo.com/video/183300025" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="embed-responsive-item"></iframe>
+          </div>
         </div>
       </div>
     </div>
 
-        <div class="container" style="margin-bottom: 5%">
-      <div class="sec3title container">
-        <h2 id="section3"> Stories </h2>
-      </div>
-      <div style="color: #26734d;" class="row">
-        <div class="col-xs-6">
-          <p>This film was shot around Thunder Bay, Ontario and is its surrounding area.
-	One among the thousands of destinations our freinds and fellow travellers like the most..
-          </p>
-	  <div class="nodot">
-	    <ul>
-	      <li> Cinematography and Editing: Damien Gilbert</li>
-              <li> Additional Filiming </li>
-              <li> (Aerials) </li>
-              <li> Vic Chimenti </li>
-              <li> Curtis Jensen </li>
-              <li> (BRoll)</li>
-              <li> Michael McKenzie</li>
-              <li> Chad Kirvan </li>
-	    </ul>
-          </div>
-        </div>
-        <div class="col-xs-6">
-          <div class="container-margin-video">
-	    <div class="embed-responsive embed-responsive-16by9">
-	      <iframe src="https://player.vimeo.com/video/183300025" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen class="embed-responsive-item"></iframe>
-	    </div>
-	  </div>
-        </div>
-      </div>	
-	  </div>	
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
