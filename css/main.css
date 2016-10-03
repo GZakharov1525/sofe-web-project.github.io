@@ -99,3 +99,8 @@ h3 {
 p {
   padding-bottom: 1px;
 }
+
+.sbsImages {
+  display: inline-block;
+  margin: auto;
+}
