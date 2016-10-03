@@ -88,8 +88,7 @@ h3 {
 }
 
 .container-margin-video{ /* The video conatainer */
-    padding-top:20px;
-    padding-bottom:50px;
+    margin:0px;
 }
 
 .sec3title {
@@ -98,6 +97,9 @@ h3 {
 
 p {
   padding-bottom: 1px;
+}
+.nodot li{
+    list-style:none;
 }
 
 .sbsImages {
